@@ -1,4 +1,5 @@
 {
+
   "name": "node_example",
   "version": "1.0.0",
   "description": "",
@@ -13,6 +14,7 @@
     "axios": "^0.24.0",
     "crypto-js": "^4.1.1",
     "express": "^4.17.2",
-    "node-fetch": "^3.1.0"
+    "node-fetch": "^3.1.0",
+    "os-name": "^5.0.1"
   }
 }

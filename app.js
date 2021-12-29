@@ -1,6 +1,13 @@
-const express = require("express");
+//import os from 'node:os';
+//import osName from 'os-name';
+
+const os = require('os');
+//const osName = require('os-name');
+const express = require('express');
+//import express from "express";
 const app = express();
 const port = 3000;
+
 
 const getNum = () => {
   let num = 1;
@@ -11,7 +18,8 @@ const getNum = () => {
 };
 
 app.get("/", (req, res) => {
-  res.send(`Hello World! num : ${getNum()}`);
+  const greeting = ` ${os.hostname()} ${os.type()}`   
+  res.send(`ubuntu-3 <br> ${greeting} <br> num : ${getNum()}`);
 });
 
 app.listen(port, () => {
