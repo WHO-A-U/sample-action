@@ -19,6 +19,7 @@ const getNum = () => {
 // - `DataStore`
 // - `CodeRepository`
 // - `TaskManagementSystem`
+// - `chain thing`
 //
 // They can be mocked by creating a mock version using `__mocks__` folder.
 // https://jestjs.io/docs/en/manual-mocks
