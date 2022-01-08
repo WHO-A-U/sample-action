@@ -6,7 +6,7 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"여기서 테스트를 진행합니다\" && exit 0"
   },
   "author": "",
   "license": "ISC",
