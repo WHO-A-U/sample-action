@@ -1,13 +1,8 @@
-//import os from 'node:os';
-//import osName from 'os-name';
-
 const os = require('os');
-//const osName = require('os-name');
 const express = require('express');
-//import express from "express";
+
 const app = express();
 const port = 3000;
-
 
 const getNum = () => {
   let num = 1;
